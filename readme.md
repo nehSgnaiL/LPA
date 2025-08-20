@@ -42,10 +42,12 @@ Directory and file descriptions:
 
 + `main.py`: Main script to run the framework.
 
++ `run.sh`: Shell script to run the framework with default configurations.
+
 ## Quick-start
 Step 1. Set Configuration in `args.py`
 
-> [!TIP] 
+> [!NOTE] 
 > The key parameter `activity_type` in `args.py` determines the activity type integrated into the model: 
 > + **None**: The model uses only location data.
 > + **A3**: The model integrates location data and primary activities (Home, Work, Non-mandatory).
@@ -57,6 +59,17 @@ Step 2. Run the Framework
 > Execute `main.py` to start the framework. Note the following:
 > + The configurations in `args.py` are default settings.
 > + Any configurations set directly in `main.py` will overwrite the default config.
+
+> [!TIP]
+> Using the command to run the framework without modifying the code:
+> ```python
+> python main.py --pre_model_name=LPA --activity_type=A6 --dataset=data_sample
+> ```
+> or using a shell script:
+> ```bash
+> bash run.sh
+> ```
+
 
 Step 3. Check the Results
 
