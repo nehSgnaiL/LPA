@@ -1,0 +1,43 @@
+{
+    "geo": {
+        "including_types": [
+            "Point"
+        ],
+        "Point": {
+            "geo_id": "geo_id",
+            "type": "other",
+            "coordinate": "coordinate"
+        }
+    },
+    "usr": {
+        "properties": {
+            "usr_id": "usr_id"
+        }
+    },
+    "dyna": {
+        "including_types": [
+            "trajectory"
+        ],
+        "trajectory": {
+            "dyna_id": "num",
+            "type": "other",
+            "time": "time",
+            "entity_id": "usr_id",
+            "location": "geo_id",
+            "primary_activity": "enum",
+            "secondary_activity": "enum",
+            "Eating out": "num",
+            "Personal affairs": "num",
+            "Recreation": "num",
+            "Shopping": "num",
+            "Home": "num",
+            "Work": "num"
+        }
+    },
+    "info": {
+        "distance_upper": 30.0,
+        "geo_file": "data_sample",
+        "dyna_file": "data_sample",
+        "usr_file": "data_sample"
+    }
+}
