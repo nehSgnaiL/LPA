@@ -1,11 +1,11 @@
 # LPA: Location Prediction with Activity Semantics
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/nehSgnaiL/LPA/pulls)
 [![star](https://img.shields.io/github/stars/nehSgnaiL/LPA)](https://github.com/nehSgnaiL/LPA/stargazers)
 
 ## Overview
 
-This repository contains the code and sample data for the LPA model from our paper: ***Improving Next Location Prediction with Inferred Activity Semantics in Mobile Phone Data***.
+This repository contains the code and sample data for the LPA model from our paper: *Improving Next Location Prediction with Inferred Activity Semantics in Mobile Phone Data*.
 
 We propose a **semantics-enhanced next location prediction framework** that infers and integrates user activities into an LSTM architecture with attention mechanisms and multimodal embeddings. 
 The findings **highlight the value of enriching trajectory data with activity-level context**, which enables models to better capture the behavioural motivations behind movement. 
@@ -45,7 +45,7 @@ Directory and file descriptions:
 + `run.sh`: Shell script to run the framework with default configurations.
 
 ## Quick-start
-Step 1. Set Configuration in `args.py`
+**Step 1. Set Configuration in `args.py`**
 
 > [!NOTE] 
 > The key parameter `activity_type` in `args.py` determines the activity type integrated into the model: 
@@ -53,7 +53,7 @@ Step 1. Set Configuration in `args.py`
 > + **A3**: The model integrates location data and primary activities (Home, Work, Non-mandatory).
 > + **A6**: The model integrates location data, primary activities, and non-mandatory activities (Home, Work, Shopping, Leisure, Eat out, Personal affairs).
 
-Step 2. Run the Framework
+**Step 2. Run the Framework**
 
 > [!NOTE] 
 > Execute `main.py` to start the framework. Note the following:
@@ -71,7 +71,7 @@ Step 2. Run the Framework
 > ```
 
 
-Step 3. Check the Results
+**Step 3. Check the Results**
 
 > [!NOTE] 
 > Upon successful completion, a `cache` directory will be generated containing:
@@ -81,8 +81,18 @@ Step 3. Check the Results
 
 ## Citation
 
-If you consider it useful for your research or development, please consider citing our [paper]().
+If you consider it useful for your research or development, please consider citing our [paper](https://doi.org/10.1080/17538947.2025.2552880).
 
 ```
-to be added.
+@article{IJDE2025LPA,
+    author = {Shen Liang and Qiuping Li and Li Zhuo and Dan Zou and Yang Xu and Suhong Zhou},
+    title = {Improving next location prediction with inferred activity semantics in mobile phone data},
+    journal = {International Journal of Digital Earth},
+    volume = {18},
+    number = {2},
+    pages = {2552880},
+    year = {2025},
+    publisher = {Taylor \& Francis},
+    doi = {10.1080/17538947.2025.2552880},
+}
 ```
