@@ -5,10 +5,13 @@
 
 ## Overview
 
-This repository contains the code and sample data for the LPA model from our paper: *Improving Next Location Prediction with Inferred Activity Semantics in Mobile Phone Data*.
+This repository contains the code and sample data for the LPA model from [our paper](https://doi.org/10.1080/17538947.2025.2552880): *Improving Next Location Prediction with Inferred Activity Semantics in Mobile Phone Data*.
 
-We propose a **semantics-enhanced next location prediction framework** that infers and integrates user activities into an LSTM architecture with attention mechanisms and multimodal embeddings. 
-The findings **highlight the value of enriching trajectory data with activity-level context**, which enables models to better capture the behavioural motivations behind movement. 
+This study improves next location prediction by adding inferred travel purposes into an AI model. We find that **understanding the reasons behind trips** makes predictions **more accurate**, and **considering many activity types** works **better than** relying only on **a few highly accurate ones**.
+
+![Findings](./img/improvement-by-activity.jpg)
+
+A **semantics-enhanced** framework is proposed to infer and integrate user activities into an LSTM architecture with multimodal embeddings and attention mechanisms. 
 
 ![Framework](./img/research-framework.png)
 
