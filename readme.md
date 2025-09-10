@@ -10,7 +10,7 @@ This repository contains the code and sample data for the LPA model from [our pa
 > By adding inferred travel purposes into an AI model, we find that **understanding the reasons behind trips makes predictions more accurate**, and **considering many activity types works better than relying only on a few highly accurate ones**.
 
 <p align="center">
-  <img src="./img/improvement-by-activity.jpg" alt="Findings" width="900"/>
+  <img src="./img/improvement-by-activity.jpg" alt="Findings" width="800"/>
 </p>
 <p align = "center">
 <b>Fig. 1</b>. Diverse but uncertain inferred activities still enhance predictions.
