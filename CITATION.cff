@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you consider it useful for your research or development, please cite it as below."
+authors:
+- family-names: "Liang"
+  given-names: "Shen"
+  orcid: "https://orcid.org/0000-0002-2246-8427"
+- family-names: "Li"
+  given-names: "Qiuping"
+- family-names: "Zhuo"
+  given-names: "Li"
+- family-names: "Zou"
+  given-names: "Dan"
+- family-names: "Xu"
+  given-names: "Yang"
+- family-names: "Zhou"
+  given-names: "Suhong"
+title: "Improving next location prediction with inferred activity semantics in mobile phone data"
+version: 1.0.0
+doi: 10.1080/17538947.2025.2552880
+date-released: 2025-09-07
+url: "https://github.com/nehSgnaiL/LPA"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Liang"
+    given-names: "Shen"
+    orcid: "https://orcid.org/0000-0002-2246-8427"
+  - family-names: "Li"
+    given-names: "Qiuping"
+  - family-names: "Zhuo"
+    given-names: "Li"
+  - family-names: "Zou"
+    given-names: "Dan"
+  - family-names: "Xu"
+    given-names: "Yang"
+  - family-names: "Zhou"
+    given-names: "Suhong"
+  doi: "10.1080/17538947.2025.2552880"
+  journal: "International Journal of Digital Earth"
+  month: 9
+  # start: 2552880 # First page number
+  # end: 2552880 # Last page number
+  pages: 2552880
+  title: "Improving next location prediction with inferred activity semantics in mobile phone data"
+  issue: 2
+  volume: 18
+  year: 2025
