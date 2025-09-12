@@ -38,9 +38,8 @@ preferred-citation:
   doi: "10.1080/17538947.2025.2552880"
   journal: "International Journal of Digital Earth"
   month: 9
-  # start: 2552880 # First page number
+  start: 2552880 # First page number
   # end: 2552880 # Last page number
-  pages: 2552880
   title: "Improving next location prediction with inferred activity semantics in mobile phone data"
   issue: 2
   volume: 18
