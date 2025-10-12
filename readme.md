@@ -7,7 +7,7 @@
 
 This repository contains the code and sample data for the LPA model from [our paper](https://doi.org/10.1080/17538947.2025.2552880), *Improving Next Location Prediction with Inferred Activity Semantics in Mobile Phone Data*.
 
-> By adding inferred travel purposes into an AI model, we find that **understanding the reasons behind trips makes predictions more accurate**, and **considering many activity types works better than relying only on a few highly accurate ones**.
+> To predict the '*where*,' do we need the '*why*'? By adding inferred travel purposes into an AI model, we find that **understanding the reasons behind trips makes predictions more accurate**, and **considering many activity types works better than relying only on a few highly accurate ones**.
 
 <p align="center">
   <img src="./img/improvement-by-activity.jpg" alt="Findings" width="700"/>
