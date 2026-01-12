@@ -1,7 +1,13 @@
-# LPA: Location Prediction with Activity Semantics
+<h1 align="center">LPA: Location Prediction with Activity Semantics</h1>
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/nehSgnaiL/LPA/pulls)
-[![star](https://img.shields.io/github/stars/nehSgnaiL/LPA)](https://github.com/nehSgnaiL/LPA/stargazers)
+<div align="center">
+
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/nehSgnaiL/LPA/pulls)
+  [![star](https://img.shields.io/github/stars/nehSgnaiL/LPA)](https://github.com/nehSgnaiL/LPA/stargazers)
+  [![GitHub Issues](https://img.shields.io/github/issues/nehSgnaiL/LPA)](https://github.com/nehSgnaiL/LPA/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/nehSgnaiL/LPA)](https://github.com/nehSgnaiL/LPA/pulls)
+
+</div>
 
 ## Overview
 
