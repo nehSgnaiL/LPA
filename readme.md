@@ -11,7 +11,9 @@
 
 ## Overview
 
-This repository contains the code and sample data for the LPA model from [our paper](https://doi.org/10.1080/17538947.2025.2552880), *Improving Next Location Prediction with Inferred Activity Semantics in Mobile Phone Data*.
+This repository contains the code and sample data for the LPA model from [our paper](https://doi.org/10.1080/17538947.2025.2552880), *Improving Next Location Prediction with Inferred Activity Semantics in Mobile Phone Data*. 
+
+A brief introduction to the related research is also available on [personal page](https://nehsgnail.github.io/research/2025-IJDE-LPA/). Feel free to explore 😄!
 
 > To predict the '*where*,' do we need the '*why*'? By adding inferred travel purposes into an AI model, we find that **understanding the reasons behind trips makes predictions more accurate**, and **considering many activity types works better than relying only on a few highly accurate ones**.
 
@@ -100,7 +102,7 @@ Directory and file descriptions:
 
 ## Citation
 
-If you consider it useful for your research or development, please consider citing our [paper](https://doi.org/10.1080/17538947.2025.2552880).
+If you find it useful for your research or development, please consider citing our [paper](https://doi.org/10.1080/17538947.2025.2552880).
 
 ```
 @article{IJDE2025LPA,
